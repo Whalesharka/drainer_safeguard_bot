@@ -1,0 +1,17 @@
+<svg  
+    xmlns="http://www.w3.org/2000/svg"  
+    style="max-width: 100%; max-height: 100%; background-color: red"  
+    width="160"  
+    height="160"  
+    viewBox="0 0 160 160"  
+>  
+    <defs>  
+        <symbol id="logo" viewBox="0 0 160 160">  
+            <!-- Your logo shape goes here, replace with actual SVG path -->  
+            <path d="M80 0 C 39.5 0 0 39.5 0 80 S 39.5 160 80 160 S 160 120.5 160 80 S 120.5 0 80 0 Z" />  
+            <!-- Add more shapes if needed -->  
+        </symbol>  
+    </defs>  
+
+    <use href="#logo" style="fill: var(--primary-color);"></use>  
+</svg>  
